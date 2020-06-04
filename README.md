@@ -1,8 +1,10 @@
 # Galactic Collaboration Summit 2020 - Microsoft Teams and Microsoft 365 Groups PowerShell MasterClass
 
+See more about the conference at [Galactic Collaboration Summit 2020](https://www.collabsummit.space/en/).
+
 Demos by [atwork-it.com](https://www.atwork-it.com/), [Toni Pohl](https://twitter.com/atwork)
 
-Management of Office 365 and Microsoft Teams can be done in a lot of ways. The following scripts show essential PowerShell scripts you need to manage your Microsoft 365 Groups and Microsoft Teams at scale. You must be a **Global Administrator in the Microsoft 365 tenant** to run all scripts. These are the updated scripts of November 2019. Use and adapt the scripts as required.
+Management of Microsoft 365 and Microsoft Teams can be done in a lot of ways. The following scripts show essential PowerShell scripts you need to manage your Microsoft 365 Groups and Microsoft Teams at scale. You must be a **Global Administrator in the Microsoft 365 tenant** to run all scripts. These are the updated scripts of June 2020. Use and adapt the scripts as needed.
 
 ## Required PowerShell modules
 
@@ -11,7 +13,7 @@ You get the latest PowerShell modules from the PowerShell Gallery or remotely:
 - [AzureADPreview](https://www.powershellgallery.com/packages/AzureADPreview/)
 - [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams/)
 - Remote Exchange PowerShell (Microsoft.Exchange) - see the connect script
-- [Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+- [Microsoft 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
 ## Install the modules
 
@@ -29,11 +31,11 @@ You can use the scripts on your computer with the required modules installed, or
 
 ## Structure of the scripts
 
-The scripts show demos how to manage  Microsoft 365 Groups and Microsoft Teams in an Office 365 tenant. The scripts can be used as start for adapting your custom Office 365 tenant management. To make it easy to follow, the scripts are numbered by topic.
+The scripts show demos how to manage Microsoft 365 Groups and Microsoft Teams in an Microsoft 365 tenant. The scripts can be used as start for adapting your custom Microsoft 365 tenant management. To make it easy to follow, the scripts are numbered by topic.
 
 ## Cross-Reference
 
-- To see the open-source Groups Governance Toolkit by [atwork-it.com](https://www.atwork-it.com/), see https://github.com/martinagrom/Ignite2018GroupsGovernanceToolkit) 
+- To see the open-source Groups Governance Toolkit by [atwork-it.com](https://www.atwork-it.com/), see https://github.com/martinagrom/Ignite2018GroupsGovernanceToolkit)
 - If you are interested in a **ready-to-use Governance Overview solution** visualized with Power-BI, check out [governancetoolkit365.com](https://governancetoolkit365.com/). You can register for a free trial.
 
 ## For developers
@@ -45,3 +47,5 @@ Alternatively, developers can use the Microsoft Graph for accomplishing similar 
 - Graph API has more actions, e.g. see the channels, e.g. see the tabs... https://graph.microsoft.com/v1.0/teams/bdebef61-fc39-45fc-9e16-ca927ecb7601/channels/19:fac22556a2764f46b161940b3fc01600@thread.skype/tabs
 
 Have a good Microsoft 365 Groups and Teams management with these PowerShell scripts!
+
+Enjoy the online conference!
